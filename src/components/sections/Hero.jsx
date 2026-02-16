@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, Mail, Github, Linkedin } from 'lucide-react';
 import Button from '../ui/Button';
-import logo from "../../assets/logo/somesh.jpeg"
+import logo from "../../assets/logo/somesh image.jpeg"
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.querySelector('#contact');
