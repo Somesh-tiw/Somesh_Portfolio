@@ -63,8 +63,11 @@ const Hero = () => {
                 Hire Me
               </Button>
               <Button variant="outline" icon={Download}>
-                Download Resume
+               <a href="/Somesh D FullStack Resume.pdf">Download</a>
               </Button>
+              {/* <a href="/Somesh D FullStack Resume.pdf" download>
+                   <button variant="outline" icon={Download} className="btn">Download Resume</button>
+               </a> */}
             </motion.div>
             
             <motion.div

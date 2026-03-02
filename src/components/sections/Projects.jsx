@@ -3,33 +3,37 @@ import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code } from 'lucide-react';
 import Button from '../ui/Button';
 import { image } from 'framer-motion/client';
+import image1 from "../../assets/image/E-commerce.png"
+import image2 from "../../assets/image/Blog.png"
+import image3 from "../../assets/image/pokemon.png"
+import image4 from "../../assets/image/weather.png"
 
 
 const Projects = () => {
   const projects = [
     {
-      title: 'Student Details',
+      title: 'E-COMMERCE',
       description: 'A full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration.',
-      techStack: ['React', 'Tailwindcss'],
-      github: 'https://github.com/someshtiwari/ecommerce-platform',
-      live: 'https://studentapp-six-kappa.vercel.app/',
-      image:  'https://miro.medium.com/v2/resize:fit:1400/1*p-Cp_e81eE3_dLTWAaOYjw.png'
+      techStack: ['React.js', 'Tailwindcss','Redux-Toolkit'],
+      github: 'https://github.com/Somesh-tiw/frontend',
+      live: 'https://frontend-sooty-one-62.vercel.app/',
+      image:  image1
     },
     {
-      title: 'Todo App',
-      description: 'A simple and responsive Todo App built with React and Tailwind CSS. Add, delete, and manage tasks effortlessly with a clean UI and smooth interactive experience.',
-      techStack: ['React','Tailwind Css'],
-      github: ' https://somesh-tiw.github.io/alltodos/',
-      live: 'https://alltodos.vercel.app/',
-      image: 'https://img.freepik.com/premium-vector/hand-drawing-todo-list-with-neat-organized-design_462371-4782.jpg',
+      title: 'BLOG-APP',
+      description: 'Built a full-stack Blog App with authentication and CRUD functionality using the MERN stack. Implemented protected routes, REST APIs, and responsive UI for seamless user experience.',
+      techStack: ['React.js','Express.js','Node.js','Tailwind Css'],
+      github: 'https://github.com/Somesh-tiw/blog-app',
+      live: 'https://blog-app-theta-smoky.vercel.app/',
+      image: image2,
     },
     {
       title: 'Pokemon-Game',
       description: 'A comprehensive dashboard for managing multiple social media accounts with analytics, scheduling, and content management.',
-      techStack: ['React', 'Tailwind CSS',  ],
+      techStack: ['React','Tailwind CSS','Context Api'],
       github: 'https://somesh-tiw.github.io/pokemon-game/',
       live:   'https://pokemon-game-xi-cyan.vercel.app/',
-      image: 'https://assets-prd.ignimgs.com/2024/02/02/all-pokemon-games-switch-1706832326621.png',
+      image: image3,
     },
     {
       title: 'Weather App',
@@ -37,7 +41,7 @@ const Projects = () => {
       techStack: ['JavaScript', 'OpenWeather API', 'HTML5 & CSS'],
       github: 'https://somesh-tiw.github.io/Weather-App-Forecast/',
       live: 'https://somesh-tiw.github.io/Weather-App/',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: image4,
     },
   ];
 
